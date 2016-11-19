@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: com.egfavre.PubSubRecvTagger
+Main-Class: com.egfavre.PubSub
 
