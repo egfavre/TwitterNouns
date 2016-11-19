@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.concurrent.TimeoutException;
 
 public class PubSub {
-    private final static String EXCHANGE_NAME = System.getenv("EXCHANGE_NAME");
+    private static final String EXCHANGE_NAME = "EXCHANGE_NAME";
     public static final String OAUTH_CONSUMER_KEY = System.getenv("OAUTH_CONSUMER_KEY");
     public static final String OAUTH_CONSUMER_SECRET = System.getenv("OAUTH_CONSUMER_SECRET");
     public static final String OAUTH_ACCESS_TOKEN = System.getenv("OAUTH_ACCESS_TOKEN");
